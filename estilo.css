@@ -3,41 +3,49 @@ body {
     color: #3b2f2f;
     font-family: Georgia, serif;
     margin: 20px;
-    line-height: 0.8;
+    line-height: 1.6;
 }
+
 header {
     background-color: #eac795;
     padding: 25px;
     border-radius: 6px;
+}
 
 h1 {
     color: #280a76;
 }
-}
+
 main {
     padding: 20px 0;
+}
+
 h2 {
     color: #4f5153;
 }
-}
+
 footer {
     background-color: #eac795;
     padding: 15px;
     border-radius: 8px;
     text-align: center;
+}
+
 a {
     color: #023405;
 }
+
+a:hover {
+    color: #280a76;
 }
+
 img {
     max-width: 100%;
     height: auto;
     border: 3px solid #4f5153;
     border-radius: 8px;
 }
+
 li {
     margin-bottom: 8px;
-}
-a:hover {
-    color: #280a76;
 }
