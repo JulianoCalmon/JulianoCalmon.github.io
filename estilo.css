@@ -81,6 +81,10 @@ img {
     object-fit: cover;
 }
 
+.cartao .posicao-esquerda {
+    object-position: 40% center;
+}
+
 .cartao p {
     margin: 10px 0 0 0;
     text-align: center;
