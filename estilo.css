@@ -108,3 +108,17 @@ img {
 li {
     margin-bottom: 8px;
 }
+
+.botao {
+    background-color: var(--cor-principal);
+    color: var(--cor-cartao);
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.botao:hover {
+    background-color: var(--cor-secundaria);
+    color: var(--cor-cartao);
+}
