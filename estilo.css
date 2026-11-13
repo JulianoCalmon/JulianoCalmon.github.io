@@ -1,19 +1,32 @@
+:root {
+    --cor-fundo: #f5efe6;
+    --cor-texto: #3b2f2f;
+    --cor-principal: #2e5e3e;
+    --cor-secundaria: #8a5a2b;
+    --cor-destaque: #eac795;
+    --fonte-titulo: "Merriweather", Georgia, serif;
+    --fonte-texto: "Open Sans", Arial, sans-serif;
+    --cor-aviso: #fff3c4;
+    --cor-cartao: #ffffff;
+}
+
 body {
-    background-color: #f5efe6;
-    color: #3b2f2f;
-    font-family: Georgia, serif;
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto);
+    font-family: var(--fonte-texto);
     margin: 20px;
     line-height: 1.6;
 }
 
 header {
-    background-color: #eac795;
+    background-color: var(--cor-destaque);
     padding: 25px;
     border-radius: 6px;
 }
 
 h1 {
-    color: #280a76;
+    color: var(--cor-principal);
+    font-family: var(--fonte-titulo);
 }
 
 .centralizado {
@@ -21,12 +34,12 @@ h1 {
 }
 
 .destaque {
-    font-weight: bold;
-    color: #2e5e3e;
+    font-weight: 600;
+    color: var(--cor-principal);
 }
 
 .aviso {
-    background-color: #fff3c4;
+    background-color: var(--cor-aviso);
     padding: 10px;
     border-radius: 6px;
 }
@@ -36,22 +49,23 @@ main {
 }
 
 h2 {
-    color: #4f5153;
+    color: var(--cor-secundaria);
+    font-family: var(--fonte-titulo);
 }
 
 footer {
-    background-color: #eac795;
+    background-color: var(--cor-destaque);
     padding: 15px;
     border-radius: 8px;
     text-align: center;
 }
 
 a {
-    color: #023405;
+    color: var(--cor-principal);
 }
 
 a:hover {
-    color: #280a76;
+    color: var(--cor-secundaria);
 }
 
 img {
@@ -68,7 +82,7 @@ img {
 }
 
 .cartao {
-    background-color: #ffffff;
+    background-color: var(--cor-cartao);
     padding: 15px;
     border-radius: 15px;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
